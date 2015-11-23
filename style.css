@@ -4518,7 +4518,6 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 
 .portfolio-overlay .portfolio-desc h3 {
 	font-weight: 600;
-	color: #F5F5F5 !important;
 	line-height: 1;
 }
 
@@ -4526,7 +4525,8 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 
 .portfolio-overlay .portfolio-desc span {
 	margin-top: 7px;
-	color: #DDD !important;
+    text-align: left;
+    list-style-type: circle;
 }
 
 .portfolio-overlay .portfolio-desc span a {
