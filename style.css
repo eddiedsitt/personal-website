@@ -4527,6 +4527,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 	margin-top: 7px;
     text-align: left;
     list-style-type: circle;
+    margin-left: 20px;
 }
 
 .portfolio-overlay .portfolio-desc span a {
