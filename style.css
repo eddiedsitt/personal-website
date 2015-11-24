@@ -4525,9 +4525,6 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 
 .portfolio-overlay .portfolio-desc span {
 	margin-top: 7px;
-    text-align: left;
-    list-style-type: circle;
-    margin-left: 20px;
 }
 
 .portfolio-overlay .portfolio-desc span a {
@@ -7415,9 +7412,9 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .feature-box.fbox-plain.fbox-small { padding-left: 42px; }
-
+/*
 .feature-box.fbox-plain.fbox-small .fbox-icon { width: 28px; }
-
+*/
 .feature-box.fbox-plain.fbox-small h3 {
 	font-size: 15px;
 	line-height: 26px;
@@ -7509,7 +7506,7 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .feature-box.fbox-center.fbox-small .fbox-icon {
-	width: 64px;
+	/*width: 64px;*/
 	height: 64px;
 }
 
@@ -7524,7 +7521,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-center.fbox-small.fbox-border .fbox-icon i { line-height: 62px !important; }
 
-.feature-box.fbox-center.fbox-small.fbox-plain .fbox-icon i { font-size: 56px; }
+.feature-box.fbox-center.fbox-small.fbox-plain .fbox-icon i { font-size: 96px; }
 
 .feature-box.fbox-center.fbox-small.fbox-plain .fbox-icon img { height: 64px; }
 

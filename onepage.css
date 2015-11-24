@@ -43,7 +43,10 @@ body { direction: ltr; }
 	margin-bottom: -70px;
 }
 
-#header.full-header #logo { border-right: 0; }
+#header.full-header #logo { 
+    border-right: 0; 
+    font-family: 'Roboto', sans-serif !important;
+}
 
 #header.full-header #primary-menu > ul {
 	padding-right: 0;

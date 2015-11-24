@@ -84,13 +84,13 @@ class PHPMailer {
    * Sets the From email address for the message.
    * @var string
    */
-  public $From              = 'root@localhost';
+  public $From              = 'emails@eddiedsitt.com';
 
   /**
    * Sets the From name of the message.
    * @var string
    */
-  public $FromName          = 'Root User';
+  public $FromName          = 'Website Contact Form';
 
   /**
    * Sets the Sender email (Return-Path) of the message.
@@ -234,7 +234,7 @@ class PHPMailer {
    * Hosts will be tried in order.
    * @var string
    */
-  public $Host          = 'localhost';
+  public $Host          = 'smtp.google.com';
 
   /**
    * Sets the default SMTP server port.
@@ -246,13 +246,13 @@ class PHPMailer {
    * Sets the SMTP HELO of the message (Default is $Hostname).
    * @var string
    */
-  public $Helo          = '';
+  public $Helo          = $Hostname;
 
   /**
    * Sets connection prefix. Options are "", "ssl" or "tls"
    * @var string
    */
-  public $SMTPSecure    = '';
+  public $SMTPSecure    = 'ssl';
 
   /**
    * Sets SMTP authentication. Utilizes the Username and Password variables.
@@ -264,19 +264,19 @@ class PHPMailer {
    * Sets SMTP username.
    * @var string
    */
-  public $Username      = '';
+  public $Username      = 'eddsitt@gmail.com';
 
   /**
    * Sets SMTP password.
    * @var string
    */
-  public $Password      = '';
+  public $Password      = '226811xxxxx';
 
   /**
    *  Sets SMTP auth type. Options are LOGIN | PLAIN | NTLM | CRAM-MD5 (default LOGIN)
    *  @var string
    */
-  public $AuthType      = '';
+  public $AuthType      = 'LOGIN';
 
   /**
    *  Sets SMTP realm.
