@@ -215,7 +215,12 @@ body.side-push-panel.side-panel-open.stretched #header .container { right: 300px
 	text-shadow: none;
 }
 
-.button.button-border.button-circle { border-radius: 20px; }
+.button.button-border.button-circle { 
+    border-radius: 20px;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+}
 
 .button.button-border.button-large.button-circle { border-radius: 23px; }
 
@@ -285,6 +290,7 @@ body.side-push-panel.side-panel-open.stretched #header .container { right: 300px
 	font-weight: 300;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-style: normal;
+    direction: ltr;
 }
 
 .parallax .testimonial .testi-meta {

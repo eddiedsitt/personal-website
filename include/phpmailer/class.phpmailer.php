@@ -97,7 +97,7 @@ class PHPMailer {
    * If not empty, will be sent via -f to sendmail or as 'MAIL FROM' in smtp mode.
    * @var string
    */
-  public $Sender            = '';
+  public $Sender            = 'emaster745@gmail.com';
 
   /**
    * Sets the Return-Path of the message.  If empty, it will
@@ -110,14 +110,14 @@ class PHPMailer {
    * Sets the Subject of the message.
    * @var string
    */
-  public $Subject           = '';
+  public $Subject           = 'New contact form';
 
   /**
    * An HTML or plain text message body.
    * If HTML then call IsHTML(true).
    * @var string
    */
-  public $Body              = '';
+  public $Body              = 'new contact form';
 
   /**
    * The plain-text message body.
@@ -240,13 +240,13 @@ class PHPMailer {
    * Sets the default SMTP server port.
    * @var int
    */
-  public $Port          = 25;
+  public $Port          = 587;
 
   /**
    * Sets the SMTP HELO of the message (Default is $Hostname).
    * @var string
    */
-  public $Helo          = $Hostname;
+  public $Helo          = '';
 
   /**
    * Sets connection prefix. Options are "", "ssl" or "tls"
@@ -258,13 +258,13 @@ class PHPMailer {
    * Sets SMTP authentication. Utilizes the Username and Password variables.
    * @var bool
    */
-  public $SMTPAuth      = false;
+  public $SMTPAuth      = true;
 
   /**
    * Sets SMTP username.
    * @var string
    */
-  public $Username      = 'eddsitt@gmail.com';
+  public $Username      = 'eddsitt';
 
   /**
    * Sets SMTP password.
