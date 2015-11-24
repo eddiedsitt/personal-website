@@ -7521,7 +7521,10 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-center.fbox-small.fbox-border .fbox-icon i { line-height: 62px !important; }
 
-.feature-box.fbox-center.fbox-small.fbox-plain .fbox-icon i { font-size: 96px; }
+.feature-box.fbox-center.fbox-small.fbox-plain .fbox-icon i { 
+    font-size: 80px;
+    min-width:80px;
+}
 
 .feature-box.fbox-center.fbox-small.fbox-plain .fbox-icon img { height: 64px; }
 
