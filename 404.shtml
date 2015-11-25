@@ -1,99 +1,123 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="en-US">
-<head>
-<meta name="robots" content="nofollow" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
 
-	<!-- Stylesheets
+<head>
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
 	============================================= -->
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap-rtl.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="style-rtl.css" type="text/css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
-	<!-- One Page Module Specific Stylesheet -->
-	<link rel="stylesheet" href="onepage.css" type="text/css" />
-	<link rel="stylesheet" href="onepage-rtl.css" type="text/css" />
-	<!-- / -->
+    <!-- One Page Module Specific Stylesheet -->
+    <link rel="stylesheet" href="onepage.css" type="text/css" />
+    <link rel="stylesheet" href="onepage-rtl.css" type="text/css" />
+    <!-- / -->
 
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
     <link rel="stylesheet" href="css/dark-rtl.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons-rtl.css" type="text/css" />
-	<link rel="stylesheet" href="css/et-line.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons-rtl.css" type="text/css" />
+    <link rel="stylesheet" href="css/et-line.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<link rel="stylesheet" href="css/responsive-rtl.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive-rtl.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
-	<!-- External JavaScripts
+    <!-- External JavaScripts
 	============================================= -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
 
     <!-- Document Title
     ============================================= -->
-	<title>404 | Eddie D. Sitt</title>
+    <title>404 | Eddie D. Sitt</title>
 
 </head>
 
 <body class="stretched side-push-panel">
 
-	<div class="body-overlay"></div>
+    <div class="body-overlay"></div>
 
-	<!-- Document Wrapper
+    <!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix">
+    <div id="wrapper" class="clearfix">
 
-		<!-- Header
+        <!-- Header
 		============================================= -->
-		<header id="header" class="full-header static-sticky" data-sticky-offset="0">
+        <header id="header" class="full-header static-sticky" data-sticky-offset="0">
 
-			<div id="header-wrap">
+            <div id="header-wrap">
 
-				<div class="container clearfix">
+                <div class="container clearfix">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-					<!-- Logo
+                    <!-- Logo
 					============================================= -->
-					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/canvasone-dark.png"><span>Eddie D. Sitt</span></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/canvasone-dark@2x.png"><span>Eddie D. Sitt</span></a>
-					</div><!-- #logo end -->
+                    <div id="logo">
+                        <a href="index.html" class="standard-logo" data-dark-logo="images/canvasone-dark.png"><span>Eddie D. Sitt</span></a>
+                        <a href="index.html" class="retina-logo" data-dark-logo="images/canvasone-dark@2x.png"><span>Eddie D. Sitt</span></a>
+                    </div>
+                    <!-- #logo end -->
 
-					<!-- Primary Navigation
+                    <!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu">
+                    <nav id="primary-menu">
 
-						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
-							<li><a href="index.html#wrapper" data-href="#wrapper"><div>Home</div></a></li>
-							<li><a href="index.html#section-about" data-href="#section-about"><div>About</div></a></li>
-							<li><a href="index.html#section-works" data-href="#section-works"><div>Resume</div></a></li>
-							<li><a href="index.html#section-services" data-href="#section-services"><div>Languages</div></a></li>
-							<li><a href="index.html#section-contact" data-href="#section-contact"><div>Contact</div></a></li>
-						</ul>
+                        <ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+                            <li>
+                                <a href="index.html#wrapper" data-href="#wrapper">
+                                    <div>Home</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#section-about" data-href="#section-about">
+                                    <div>About</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#section-works" data-href="#section-works">
+                                    <div>Resume</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#section-services" data-href="#section-services">
+                                    <div>Languages</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#section-contact" data-href="#section-contact">
+                                    <div>Contact</div>
+                                </a>
+                            </li>
+                        </ul>
 
-						
 
-					</nav><!-- #primary-menu end -->
 
-				</div>
+                    </nav>
+                    <!-- #primary-menu end -->
 
-			</div>
+                </div>
 
-		</header><!-- #header end -->
+            </div>
+
+        </header>
+        <!-- #header end -->
 
 
         <section id="slider" class="slider-parallax full-screen dark error404-wrap" style="background: url(images/coding1.jpeg) center;">
@@ -106,7 +130,7 @@
                     <h4>Ooopps! The Page you were looking for couldn't be found.</h4>
                 </div>
 
-                
+
 
             </div>
 
@@ -116,48 +140,51 @@
         ============================================= -->
         <footer id="footer" class="dark">
 
-   
+
             <!-- Copyrights
             ============================================= -->
-         <div id="copyrights">
+            <div id="copyrights">
                 <div class="center margin-sm">
-                                    <a href="http://www.facebook.com/emaster745" class="social-icon inline-block noborder si-small si-facebook" title="Facebook">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="http://www.twitter.com/eddiedsitt" class="social-icon inline-block noborder si-small si-twitter" title="Twitter">
-										<i class="icon-twitter"></i>
-										<i class="icon-twitter"></i>
-									</a>
-									<a href="https://github.com/eddiedsitt" class="social-icon inline-block noborder si-small si-github" title="Github">
-										<i class="icon-github"></i>
-										<i class="icon-github"></i>
-									</a>
-									<a href="https://www.linkedin.com/in/eddiedsitt" class="social-icon inline-block noborder si-small si-linkedin" title="LinkedIn">
-					<i class="icon-linkedin"></i>
-					<i class="icon-linkedin"></i>
-				</a>
-				<a href="https://instagram.com/eddiedsitt/" class="social-icon inline-block noborder si-small si-instagram" title="Instagram">
-					<i class="icon-instagram"></i>
-					<i class="icon-instagram"></i>
-				</a>
-				<a href="skype:emaster745" class="social-icon inline-block noborder si-small si-skype" title="Skype">
-					<i class="icon-skype"></i>
-					<i class="icon-skype"></i>
-				</a>
-								</div>
+                    <a href="http://www.facebook.com/emaster745" class="social-icon inline-block noborder si-small si-facebook" title="Facebook">
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                    </a>
+                    <a href="http://www.twitter.com/eddiedsitt" class="social-icon inline-block noborder si-small si-twitter" title="Twitter">
+                        <i class="icon-twitter"></i>
+                        <i class="icon-twitter"></i>
+                    </a>
+                    <a href="https://github.com/eddiedsitt" class="social-icon inline-block noborder si-small si-github" title="Github">
+                        <i class="icon-github"></i>
+                        <i class="icon-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/eddiedsitt" class="social-icon inline-block noborder si-small si-linkedin" title="LinkedIn">
+                        <i class="icon-linkedin"></i>
+                        <i class="icon-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/eddiedsitt/" class="social-icon inline-block noborder si-small si-instagram" title="Instagram">
+                        <i class="icon-instagram"></i>
+                        <i class="icon-instagram"></i>
+                    </a>
+                    <a href="skype:emaster745" class="social-icon inline-block noborder si-small si-skype" title="Skype">
+                        <i class="icon-skype"></i>
+                        <i class="icon-skype"></i>
+                    </a>
+                </div>
                 <div class="center bottommargin-sm">
-                <i class="icon-envelope2"></i> es [at] eddiedsitt.com <span class="middot">&middot;</span> <i class="icon-skype2"></i> emaster745
-                    </div>
-                
-				<div class="container center clearfix">
-					 &copy; Copyright Eddie D. Sitt 2015 | All Rights Reserved.
-				</div>
-			</div><!-- #copyrights end -->
+                    <i class="icon-envelope2"></i> es [at] eddiedsitt.com <span class="middot">&middot;</span> <i class="icon-skype2"></i> emaster745
+                </div>
 
-        </footer><!-- #footer end -->
+                <div class="container center clearfix">
+                    &copy; Copyright Eddie D. Sitt 2015 | All Rights Reserved.
+                </div>
+            </div>
+            <!-- #copyrights end -->
 
-    </div><!-- #wrapper end -->
+        </footer>
+        <!-- #footer end -->
+
+    </div>
+    <!-- #wrapper end -->
 
     <!-- Go To Top
     ============================================= -->
@@ -168,4 +195,5 @@
     <script type="text/javascript" src="js/functions.js"></script>
 
 </body>
+
 </html>
