@@ -2319,7 +2319,7 @@ var SEMICOLON = SEMICOLON || {};
 			window.addEventListener('scroll', onScrollSliderParallax, false);
 
 			if( $onePageMenuEl.length > 0 ){
-				$window.scrolled(function() {
+				$window.scroll(function() {
 					SEMICOLON.header.onepageScroller();
 				});
 			}
