@@ -79,7 +79,7 @@ body { direction: ltr; }
 }
 
 #logo a span {
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: -17px;
 }
 
 
@@ -219,7 +219,7 @@ body.side-push-panel.side-panel-open.stretched #header .container { right: 300px
     border-radius: 20px;
     font-size: 30px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
 }
 
 .button.button-border.button-large.button-circle { border-radius: 23px; }
