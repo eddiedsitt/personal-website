@@ -13,8 +13,6 @@
 	Header
 ---------------------------------------------------------------------------- */
 
-body { direction: ltr; }
-
 #header { border-bottom: 0; }
 
 #header #header-wrap {
