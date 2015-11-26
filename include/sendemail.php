@@ -2,6 +2,26 @@
 
 require_once('phpmailer/class.phpmailer.php');
 
+// Function to get the client IP address
+function get_client_ip() {
+    $ipaddress = '';
+    if ($_SERVER['HTTP_CLIENT_IP'])
+        $ipaddress = $_SERVER['HTTP_CLIENT_IP'];
+    else if($_SERVER['HTTP_X_FORWARDED_FOR'])
+        $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    else if($_SERVER['HTTP_X_FORWARDED'])
+        $ipaddress = $_SERVER['HTTP_X_FORWARDED'];
+    else if($_SERVER['HTTP_FORWARDED_FOR'])
+        $ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
+    else if($_SERVER['HTTP_FORWARDED'])
+        $ipaddress = $_SERVER['HTTP_FORWARDED'];
+    else if($_SERVER['REMOTE_ADDR'])
+        $ipaddress = $_SERVER['REMOTE_ADDR'];
+    else
+        $ipaddress = 'UNKNOWN';
+    return $ipaddress;
+}
+
 $mail = new PHPMailer();
 
 if( isset( $_POST['template-contactform-submit'] ) AND $_POST['template-contactform-submit'] == 'submit' ) {
@@ -32,9 +52,11 @@ if( isset( $_POST['template-contactform-submit'] ) AND $_POST['template-contactf
             $phone = isset($phone) ? "Phone: $phone<br><br>" : '';
             $message = isset($message) ? "Message: $message<br><br>" : '';
 
-            $referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
+            $referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from the following IP: ' . get_client_ip() : '<br><br>';
+            
+            $userAgent = $_SERVER['HTTP_USER_AGENT'];
 
-            $body = "$name $email $phone $message $referrer";
+            $body = "$name $email $phone $message $referrer $userAgent";
 
             $mail->MsgHTML( $body );
             $sendEmail = $mail->Send();
