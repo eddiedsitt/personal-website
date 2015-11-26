@@ -84,20 +84,20 @@ class PHPMailer {
    * Sets the From email address for the message.
    * @var string
    */
-  public $From              = 'emails@eddiedsitt.com';
+  public $From              = 'root@localhost';
 
   /**
    * Sets the From name of the message.
    * @var string
    */
-  public $FromName          = 'Website Contact Form';
+  public $FromName          = 'Root User';
 
   /**
    * Sets the Sender email (Return-Path) of the message.
    * If not empty, will be sent via -f to sendmail or as 'MAIL FROM' in smtp mode.
    * @var string
    */
-  public $Sender            = 'emaster745@gmail.com';
+  public $Sender            = '';
 
   /**
    * Sets the Return-Path of the message.  If empty, it will
@@ -110,14 +110,14 @@ class PHPMailer {
    * Sets the Subject of the message.
    * @var string
    */
-  public $Subject           = 'New contact form';
+  public $Subject           = '';
 
   /**
    * An HTML or plain text message body.
    * If HTML then call IsHTML(true).
    * @var string
    */
-  public $Body              = 'new contact form';
+  public $Body              = '';
 
   /**
    * The plain-text message body.
@@ -234,13 +234,13 @@ class PHPMailer {
    * Hosts will be tried in order.
    * @var string
    */
-  public $Host          = 'smtp.google.com';
+  public $Host          = 'localhost';
 
   /**
    * Sets the default SMTP server port.
    * @var int
    */
-  public $Port          = 587;
+  public $Port          = 25;
 
   /**
    * Sets the SMTP HELO of the message (Default is $Hostname).
@@ -252,31 +252,31 @@ class PHPMailer {
    * Sets connection prefix. Options are "", "ssl" or "tls"
    * @var string
    */
-  public $SMTPSecure    = 'ssl';
+  public $SMTPSecure    = '';
 
   /**
    * Sets SMTP authentication. Utilizes the Username and Password variables.
    * @var bool
    */
-  public $SMTPAuth      = true;
+  public $SMTPAuth      = false;
 
   /**
    * Sets SMTP username.
    * @var string
    */
-  public $Username      = 'eddsitt';
+  public $Username      = '';
 
   /**
    * Sets SMTP password.
    * @var string
    */
-  public $Password      = '226811xxxxx';
+  public $Password      = '';
 
   /**
    *  Sets SMTP auth type. Options are LOGIN | PLAIN | NTLM | CRAM-MD5 (default LOGIN)
    *  @var string
    */
-  public $AuthType      = 'LOGIN';
+  public $AuthType      = '';
 
   /**
    *  Sets SMTP realm.

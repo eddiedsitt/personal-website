@@ -3272,6 +3272,12 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
     margin-left: 50px;
 }
 
+@media (max-width: 1200px) {
+    #content {
+    margin: 0px;
+    }
+}
+
 #content p { line-height: 1.8; }
 
 .content-wrap {
