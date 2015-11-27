@@ -3,8 +3,8 @@
 require_once('phpmailer/class.phpmailer.php');
 
 $mail = new PHPMailer();
-
-if( isset( $_POST['template-contactform-submit'] ) AND $_POST['template-contactform-submit'] == 'submit' ) {
+/*
+if( isset( $_POST['template-contactform-submit'] ) AND $_POST['template-contactform-submit'] == 'submit' ) { */
     if( $_POST['template-contactform-name'] != '' AND $_POST['template-contactform-email'] != '' AND $_POST['template-contactform-message'] != '' ) {
 
         $name = $_POST['template-contactform-name'];
@@ -49,9 +49,9 @@ if( isset( $_POST['template-contactform-submit'] ) AND $_POST['template-contactf
         }
     } else {
         echo 'Please <strong>Fill up</strong> all the Fields and Try Again.';
-    }
+    }/*
 } else {
     echo 'An <strong>unexpected error</strong> occured. Please Try Again later.';
-}
+}*/
 
 ?>
