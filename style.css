@@ -3901,7 +3901,7 @@ body.stretched .container-fullwidth .breadcrumb {
 -----------------------------------------------------------------*/
 
 .iconlist {
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 
 .iconlist i {
@@ -3913,6 +3913,10 @@ body.stretched .container-fullwidth .breadcrumb {
     .iconlist i {
         font-size: 40px;
         margin: 4px;
+    }
+    
+    portfolio.desc{
+       margin-left: 20px;
     }
 }
 
