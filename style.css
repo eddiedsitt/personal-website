@@ -13190,6 +13190,7 @@ blockquote.pull-right {
 
 .text-rotater > .t-rotate > .animated {
     display: inline-block;
+    letter-spacing: 1px;
 }
 
 
