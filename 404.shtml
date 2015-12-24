@@ -175,24 +175,28 @@
                 </div>
 
                 <div class="container center clearfix">
-                    &copy; Copyright Eddie D. Sitt 2015 | All Rights Reserved.
+                    &copy; Copyright Eddie D. Sitt <span id="currentYear">2015</span> | All Rights Reserved.
                 </div>
             </div>
-            <!-- #copyrights end -->
 
         </footer>
         <!-- #footer end -->
 
-    </div>
-    <!-- #wrapper end -->
+        </div>
+        <!-- #wrapper end -->
 
-    <!-- Go To Top
-    ============================================= -->
-    <div id="gotoTop" class="icon-angle-up"></div>
+        <!-- Go To Top
+	============================================= -->
+        <div id="gotoTop" class="icon-angle-up"></div>
 
-    <!-- Footer Scripts
-    ============================================= -->
-    <script type="text/javascript" src="js/functions.js"></script>
+        <!-- Footer Scripts
+	============================================= -->
+        <script type="text/javascript" src="js/functions.js"></script>
+        <script>
+            $(window).load(function(){
+                $("#currentYear").html(new Date().getFullYear());
+            });
+        </script>
 
 </body>
 

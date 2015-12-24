@@ -812,7 +812,7 @@
                 </div>
 
                 <div class="container center clearfix">
-                    &copy; Copyright Eddie D. Sitt 2015 | All Rights Reserved.
+                    &copy; Copyright Eddie D. Sitt <span id="currentYear">2015</span> | All Rights Reserved.
                 </div>
             </div>
 
@@ -829,6 +829,11 @@
         <!-- Footer Scripts
 	============================================= -->
         <script type="text/javascript" src="js/functions.js"></script>
+        <script>
+            $(window).load(function(){
+                $("#currentYear").html(new Date().getFullYear());
+            });
+        </script>
 
 </body>
 
