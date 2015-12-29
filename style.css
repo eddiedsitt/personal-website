@@ -1039,6 +1039,12 @@ html[xmlns] .slider-wrap {
     margin: 0;
 }
 
+#top-social{
+    bottom: 20px;
+    position: absolute;
+    right:92px;
+}
+
 #top-social li,
 #top-social li a,
 #top-social li .ts-icon,
