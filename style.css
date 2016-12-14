@@ -3920,7 +3920,7 @@ body.stretched .container-fullwidth .breadcrumb {
         font-size: 40px;
         margin: 4px;
     }
-    
+
     portfolio.desc{
        margin-left: 20px;
     }
@@ -13844,6 +13844,11 @@ body:not(.device-touch) .tagcloud a {
 .quick-contact-widget form,
 #template-contactform {
     position: relative;
+}
+
+.g-recaptcha {
+    width: 302px;
+    margin: 0 auto 20px;
 }
 
 
